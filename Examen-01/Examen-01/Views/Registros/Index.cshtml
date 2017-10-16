@@ -1,0 +1,69 @@
+﻿@model IEnumerable<Examen_01.Models.Registro>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.autos.marca)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.labores.nombre)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.mecanicos.nombre)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.repuestos.nombre)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.fIngreso)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.cantidad)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.observaciones)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.autos.marca)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.labores.nombre)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.mecanicos.nombre)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.repuestos.nombre)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.fIngreso)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.cantidad)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.observaciones)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.idRegistro }) |
+            @Html.ActionLink("Details", "Details", new { id=item.idRegistro }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.idRegistro })
+        </td>
+    </tr>
+}
+
+</table>

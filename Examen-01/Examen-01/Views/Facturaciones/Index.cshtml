@@ -1,0 +1,51 @@
+﻿@model IEnumerable<Examen_01.Models.Facturacion>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.registros.observaciones)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.NFactura)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.FFactura)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.totalCancelar)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.registros.observaciones)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.NFactura)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.FFactura)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.totalCancelar)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.idFactura }) |
+            @Html.ActionLink("Details", "Details", new { id=item.idFactura }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.idFactura })
+        </td>
+    </tr>
+}
+
+</table>

@@ -1,0 +1,50 @@
+﻿@model Examen_01.Models.Facturacion
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Facturacion</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.registros.observaciones)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.registros.observaciones)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NFactura)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NFactura)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.FFactura)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.FFactura)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.totalCancelar)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.totalCancelar)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.idFactura }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

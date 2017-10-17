@@ -52,7 +52,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="index.aspx"><img src="img/logo.png" alt="Taller"></a>
+                <%--<a class="navbar-brand" href="index.aspx"><img src="img/logo.png" alt="Taller"></a>--%>
             </div>
             <div class="collapse navbar-collapse">
                 <ul class="nav navbar-nav navbar-right">
@@ -263,8 +263,8 @@
 	        			</p>
 		    		</div>				
 		    		<div class="col-footer col-md-4 col-xs-6">
-		    			<h3>Our Social Networks</h3>
-						<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam.</p>
+		    			<h3>Redes Sociales</h3>
+						<%--<p></p>--%>
 		    			<div>
 		    				<img src="img/icons/facebook.png" width="32" alt="Facebook">
 		    				<img src="img/icons/twitter.png" width="32" alt="Twitter">
@@ -273,8 +273,8 @@
 						</div>
 		    		</div>
 		    		<div class="col-footer col-md-4 col-xs-6">
-		    			<h3>About Our Company</h3>
-		    				<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci.</p>
+		    			<h3>Sobre la compañia</h3>
+		    				<p>Trabajado del de 1990 e inovando en los servicios que se brindan a nuestros distintos clientes.</p>
 		    		</div>
 
 		    	</div>

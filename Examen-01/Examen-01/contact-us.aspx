@@ -13,7 +13,7 @@
 			</div>
 		</div>
         
-        <div class="section section-map">
+        <%--<div class="section section-map">
             <div class="col-sm-12" style="padding:0;">
 	        			<!-- Map -->
 	        			<div id="contact-us-map">
@@ -26,7 +26,7 @@
 	        			</div>
 	        			<!-- End Map -->
 					</div>
-	    </div>
+	    </div>--%>
 
         <%--<div class="section">
 	    	<div class="container">
@@ -51,7 +51,7 @@
 	    </div>--%>
 
 	    <!-- Footer -->
-	    <div class="footer">
+	    <%--<div class="footer">
 	    	<div class="container">
 		    	<div class="row">
 		    		<div class="col-footer col-md-4 col-xs-6">
@@ -85,7 +85,7 @@
 		    		</div>
 		    	</div>
 		    </div>
-	    </div>
+	    </div>--%>
 
         <!-- Javascripts -->
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>

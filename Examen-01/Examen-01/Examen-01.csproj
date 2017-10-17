@@ -251,10 +251,6 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="about-us.html" />
-    <Content Include="blog-post.html" />
-    <Content Include="blog.html" />
-    <Content Include="contact-us.html" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="css\bootstrap.css" />
@@ -316,15 +312,12 @@
     <Content Include="img\team\3.jpg" />
     <Content Include="img\title-before.png" />
     <Content Include="index.aspx" />
-    <Content Include="index.html" />
     <Content Include="js\bootstrap.js" />
     <Content Include="js\bootstrap.min.js" />
     <Content Include="js\jquery-1.9.1.min.js" />
     <Content Include="js\jquery.easing.min.js" />
     <Content Include="js\modernizr-2.6.2-respond-1.1.0.min.js" />
     <Content Include="js\scrolling-nav.js" />
-    <Content Include="portfolio-item.html" />
-    <Content Include="portfolio.html" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="ApplicationInsights.config">
@@ -352,7 +345,6 @@
     <Content Include="Scripts\respond.js" />
     <Content Include="Scripts\respond.min.js" />
     <Content Include="services.aspx" />
-    <Content Include="services.html" />
     <Content Include="contact-us.aspx" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">

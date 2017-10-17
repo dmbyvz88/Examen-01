@@ -33,7 +33,7 @@ namespace Examen_01.Controllers
             {
                 return HttpNotFound();
             }
-            return View(regi    stro);
+            return View(registro);
         }
 
         // GET: Registros/Create
